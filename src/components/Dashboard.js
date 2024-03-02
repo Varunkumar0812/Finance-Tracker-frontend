@@ -51,6 +51,8 @@ function Dashboard() {
     } else {
       savings += el.amount;
     }
+
+    return "0";
   });
 
   return (
