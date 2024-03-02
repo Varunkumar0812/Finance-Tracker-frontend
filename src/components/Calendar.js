@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 
 function Calendar() {
   const [expenses, setExpenses] = useState([]);
-  const [userData, setUserData] = useState("");
   const navigate = useNavigate();
 
   const fetchExpenses = () => {
@@ -14,8 +13,6 @@ function Calendar() {
     if (!data) {
       return navigate("/");
     }
-
-    setUserData(data.data.user._id);
 
     axios
       .get("https://finance-tracker-backend-imyy.onrender.com/api/expenses/", {
