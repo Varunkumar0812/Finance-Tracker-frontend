@@ -64,8 +64,8 @@ Here are some screenshots of the Personal Finance Tracker application:
 *Description:* A calendar displaying expenses on each day, using the React Full Calendar library.
 
 ### My Expenses Page
-![My Expenses Page](src/assests/lexpenses-page.png)  
-*Description:* A list of expense cards, each showing details like date, amount, and category. A navbar at the top with a "Create New Expense" button.
+![My Expenses Page](src/assests/expenses-page.png)  
+*Description:* A list of expense cards, each showing details like date, amount, and category. A navbar at the top with a Create New Expense option ( "+" button).
 
 ## Contributing
 
